@@ -13,12 +13,12 @@ Both methods preserve INT64 Unix timestamps and organize data in `year/month/day
 
 ## Features
 
-✅ Exports BigQuery tables to GCS as CSV files  
-✅ Preserves INT64 Unix timestamps (no conversion)  
-✅ Organizes files by date: `YYYY/MM/DD/table_name.csv`  
-✅ Handles large datasets efficiently  
-✅ Configurable date range filtering  
-✅ Supports multiple tables (configurable)  
+ Exports BigQuery tables to GCS as CSV files  
+ Preserves INT64 Unix timestamps (no conversion)  
+ Organizes files by date: `YYYY/MM/DD/table_name.csv`  
+ Handles large datasets efficiently  
+ Configurable date range filtering  
+ Supports multiple tables (configurable)  
 
 ## Table of Contents
 
@@ -575,5 +575,6 @@ gcloud scheduler jobs create http bigquery-weekly-export \
   --location=REGION
 ```
 
-#   b i g q u e r y - t o - g c s - d a t a - b a c k f i l l  
+#   b i g q u e r y - t o - g c s - d a t a - b a c k f i l l 
+ 
  
